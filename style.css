@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: "Inter";
+}
+
+body {
+  background: linear-gradient(to left, #d335f6, #3162d4);
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70rem;
+  background-color: white;
+  text-align: left;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+thead {
+  background-color: rgb(12, 8, 45);
+  color: white;
+  margin-left: 10rem;
+}
+
+tbody {
+  font-size: 0.8rem;
+}
+
+table thead tr td,
+table tbody tr td {
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(231, 231, 231);
+}
+
+.lygiuot-kaire {
+  text-align: right;
+}
+
+table tbody tr:nth-child(odd):hover {
+  background-color: rgba(76, 0, 255, 0.151);
+}
+
+table tbody tr:nth-child(even):hover {
+  background-color: rgba(255, 0, 0, 0.151);
+}
